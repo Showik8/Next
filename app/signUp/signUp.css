@@ -1,0 +1,93 @@
+
+.signup-container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 500px;
+    height: 600px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+span.login-link {
+    font-size: 18px;
+}
+
+span.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+span.login-link a:hover {
+    text-decoration: underline;
+}
+
+.errorMsg{
+    color: red;
+    font-size: 14px;
+    padding-top: 4px;
+    font-weight: bold;
+}
+
+.strength {
+    font-weight: bold;
+    font-size: 12px;
+}
+.very-weak { color: #ff0000; }
+.weak { color: #bb5048; }
+.moderate { color: rgb(26, 156, 135); }
+.strong { color: rgb(43, 52, 131); }
+.very-strong { color: green; }
